@@ -35,7 +35,6 @@ const SORT_ORDER_VALUES = {
 // @desc Get all posts with pagination, sorting, searching
 // @route GET /api/posts
 // @access Private
-
 // /api/posts?page=1&limit=10?q=Learning
 const getAll = async (req, res) => {
   try {
